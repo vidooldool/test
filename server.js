@@ -13,7 +13,7 @@
       //res.send('Hello NAVER Cloud Platform!!');
       res.send('hi cello <br> I love 민아찡');
       fs.readFile('minazzing.jpg', function(error, data){
-        res.writeHead(200, {'Content-Type' : 'text/html'});
+        //res.writeHead(200, {'Content-Type' : 'text/html'});
         res.end(data);
       });
       //res.send('changed');
