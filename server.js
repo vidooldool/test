@@ -13,6 +13,12 @@
       //res.send('changed');
   });
 
+  app.get('/wonjuFam', function(req, res){
+      //res.send('Hello NAVER Cloud Platform!!');
+      res.send('원주 홈페이지');
+      //res.send('changed');
+  });
+
   app.listen(8000, function(){
       console.log('Connected!!');
   });
