@@ -15,7 +15,7 @@
 
   app.get('/wonjuFam', function(req, res){
       //res.send('Hello NAVER Cloud Platform!!');
-      res.send('원주 홈페이지');
+      res.send('원주 홈페이지 <br> 차츰 업데이트 예정. 5월안으로 완공.');
       //res.send('changed');
   });
 
