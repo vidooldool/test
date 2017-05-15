@@ -3,11 +3,10 @@
 
   app.get('/', function(req, res){
       res.send('Hello NAVER Cloud Platform!!');
+      res.send('by bidooldool ~');
+      res.send('changed');
   });
 
   app.listen(8000, function(){
       console.log('Connected!!');
-      console.log('by bidooldool ~');
-      console.log('changed');
-      console.log('changed2!!!');
   });
